@@ -1,0 +1,14 @@
+# Local agent context and configuration
+/AGENTS.md
+/.codex/
+/.local-agent/
+/workflow/
+
+# Local output and dependencies
+node_modules/
+*.log
+*.zip
+preview-*.png
+.env
+.env.*
+!.env.example
