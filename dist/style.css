@@ -13,3 +13,6 @@ button{font-family:inherit}
  .section-heading h2{grid-column:1;grid-row:2}
  .section-heading .drawing{grid-column:2;grid-row:2}
 }
+
+/* Keep the footnote marker inside the printable area. */
+@media print{footer{padding-left:28px;break-inside:avoid;page-break-inside:avoid}footer .asterisk{left:0}}
